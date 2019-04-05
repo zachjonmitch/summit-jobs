@@ -1,0 +1,29 @@
+.job-search-results {
+  padding: 2.8rem 0;
+}
+
+.job-result {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--primary-off-white);
+}
+
+.job-result-title {
+  font-size: 1.4rem;
+  color: var(--text-gray);
+}
+
+.job-info-list li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 2rem;
+  font-size: .95rem;
+  opacity: .5;
+}
+
+.job-result-description {
+  margin-bottom: 1rem;
+}
+
+.job-result-link {
+  font-size: .95rem;
+}

@@ -1,0 +1,12 @@
+.job-search-input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--primary-off-white);
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.job-search-input::placeholder {
+  font-size: 1.5rem;
+  opacity: .7;
+}

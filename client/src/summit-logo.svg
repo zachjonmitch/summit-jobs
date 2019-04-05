@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247 48.64">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #6a7efc;
+      }
+
+      .cls-1 {
+        font-size: 25px;
+        font-family: Arial-Black, Arial;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #000;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #6a7efc;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-459 -23)">
+    <text id="SUMMITJOBS" class="cls-1" transform="translate(517 57)"><tspan class="cls-2" x="0" y="0">SUMMIT</tspan><tspan class="cls-3" y="0">JOBS</tspan></text>
+    <g id="Group_1" data-name="Group 1" transform="translate(466.541 33.296)">
+      <path id="Path_1" data-name="Path 1" d="M27.466.14,28.878,2.09,13.935,21.841H11Z" transform="translate(-11 -0.14)"/>
+      <path id="Path_2" data-name="Path 2" d="M84.792,2.474,86.259.513,96.747,14.29,95.226,16.2Z" transform="translate(-69.794 -0.432)"/>
+      <path id="Path_3" data-name="Path 3" d="M105.955,63.811h2.88l-5.76,7.8h-3.043Z" transform="translate(-81.936 -49.953)"/>
+      <path id="Path_4" data-name="Path 4" d="M25.157,92.93l1.358-1.921L37.539,91,36.1,92.85Z" transform="translate(-22.28 -71.224)"/>
+      <path id="Path_5" data-name="Path 5" d="M72.237,52.226l-3.193-.116L77.544,41l1.582,2.073Z" transform="translate(-57.247 -32.107)"/>
+      <path id="Path_6" data-name="Path 6" d="M135.247,79.21h-5.271l4.347-5.69,4.456,5.69Z" transform="translate(-105.794 -57.549)"/>
+    </g>
+    <g id="Rectangle_102" data-name="Rectangle 102" class="cls-4" transform="translate(459 23)">
+      <rect class="cls-5" width="48.279" height="48.64" rx="24.139"/>
+      <rect class="cls-6" x="1" y="1" width="46.279" height="46.64" rx="23.139"/>
+    </g>
+  </g>
+</svg>

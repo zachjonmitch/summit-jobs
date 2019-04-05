@@ -1,0 +1,209 @@
+:root {
+	--bp-xs: 0px;
+	--bp-sm: 768px;
+	--bp-md: 992px;
+	--bp-lg: 1200px;
+	--primary-blue: #6A7EFC;
+	--primary-gray: #494953;
+	--primary-red: #FF5656;
+	--primary-off-white: #EDF2F6;
+	--text-gray: #333;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+	height: 100%;
+	font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+	width: 60%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+/* POSITION STYLES */
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.mt-0 {
+	margin-top: 0;
+}
+
+.pt-0 {
+	padding-top: 0;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.mr-0 {
+	margin-right: 0;
+}
+
+.pr-0 {
+	padding-right: 0;
+}
+
+.ml-0 {
+	margin-left: 0;
+}
+
+.pl-0 {
+	padding-left: 0;
+}
+
+/* TYPOGRAPHY STYLES */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-gray);
+  line-height: 1.735;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 5.06rem;
+	font-weight: 300;
+	margin-top: 0.53rem;
+	margin-bottom: 0.53rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3.33rem;
+	font-weight: 300;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+
+h3 {
+	font-size: 2.25rem;
+	font-weight: 800;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 800;
+	margin-top: 0.67rem;
+	margin-bottom: 0.67rem;
+}
+
+h5 {
+	font-size: 1.06rem;
+	font-weight: 700;
+	margin-top: 0.94rem;
+	margin-bottom: 0.94rem;
+}
+
+h6 {
+	font-size: 1rem;
+	font-weight: 700;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	color: var(--primary-blue);
+	text-decoration: none;
+}
+
+ul,ol {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	padding-left: 1.1rem;
+}
+
+li {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* FLEX STYLES */
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-full {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+	flex: 1;
+}
+
+.box-full {
+	flex: 1 1 100%;
+}
+
+.box-half {
+	flex: 1 1 50%;
+}
+
+@media (max-width: 768px) {
+	html, body {
+		font-size: 14px;
+	}
+}

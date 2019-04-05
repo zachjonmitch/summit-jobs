@@ -1,0 +1,8 @@
+.job-filters-list {
+  padding-top: 1.1rem;
+}
+.job-filters-list li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 3.0rem;
+}
