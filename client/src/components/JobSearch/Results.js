@@ -10,6 +10,7 @@ class JobSearchResults extends Component {
         {value => {
           const { jobs } = value;
 
+          // WIP - GET FROM MONGODB NOT FROM EXPRESS
           const jobResults = jobs.map((job, index) => {
             const { description } = job;
             const limit = 150;
@@ -31,9 +32,9 @@ class JobSearchResults extends Component {
                   <h4 className="job-result-title mt-0">{job.title}</h4>
                 </a>
                 <ul className="job-info-list m-0 p-0">
-                  <li className="job-result-location">{job.location}</li>
-                  <li className="job-result-date">{job.date}</li>
-                  <li className="job-result-company">{job.company}</li>
+                  <li className="job-result-company"><i className="material-icons">location_city</i><span>{job.company}</span></li>
+                  <li className="job-result-location"><i className="material-icons">location_on</i><span>{job.location}</span></li>
+                  <li className="job-result-date"><i className="material-icons">access_time</i><span>{job.date}</span></li>
                 </ul>
                 {jobSnippet}
                 <a className="job-result-link" href={job.link}>See more</a>

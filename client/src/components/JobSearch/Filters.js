@@ -8,10 +8,9 @@ class JobSearchFilters extends Component {
       <section className="job-search-filters">
         <div className="container">
           <ul className="job-filters-list m-0 p-0">
+            <li>Company</li>
+            <li>Location</li>
             <li>Job Type</li>
-            <li>Location</li>
-            <li>Location</li>
-            <li>Experience</li>
             <li>Sort by:</li>
           </ul>
         </div>
